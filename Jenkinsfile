@@ -9,7 +9,7 @@ stages {
 stage('Build') {
 steps {
 sh 'g++ -o PES2UG20CS500-1 try.cpp'
-echo "Build Successful
+echo "Build Successful"
 }
 }
 stage('Test') {
